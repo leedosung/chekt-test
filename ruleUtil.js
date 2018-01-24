@@ -5,6 +5,21 @@ const aws = require('aws-sdk');
 const config = new aws.ConfigService();
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /** Helper function used to validate input */
 function checkDefined(reference, referenceName) {
     if (!reference) {
